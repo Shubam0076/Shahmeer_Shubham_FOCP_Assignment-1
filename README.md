@@ -1,5 +1,5 @@
 # DELIVERY DRONE SIMULATOR
-## A Project by:
+**A Project by:**
 * Muhammad Shahmeer Shaheedi (565007) – Logic Designer & Tester
 * Shubham Kumar (571672) – Programmer & Git Manager
 
@@ -63,13 +63,13 @@ On the other hand, Shubham Kumar is the main Programmer and Git Manager. He buil
 ![.](https://github.com/Shubam0076/Shahmeer_Shubham_FOCP_Assignment-1/blob/main/ReferencePics/13.png)
 ![.](https://github.com/Shubam0076/Shahmeer_Shubham_FOCP_Assignment-1/blob/main/ReferencePics/14.png)
 
-After making the new repository, though, Shubham put up his edited version of Shahmeer’s Logic-based code (file named “Logic v1.cpp”). Then, he pushed his main code onto the repository, but there was still room for improvement. This readme sample is based on said main code (titled tempCodeRunnerFile.cpp). After completing this document sample, Shahmeer will push the file on GitHub to allow a cross-check with Shubham so the latter could give his insight on the information conveyed. 
+After making the new repository, though, Shubham put up his edited version of Shahmeer’s Logic-based code (file named Logic v1.cpp). Then, he pushed his main code onto the repository, but there was still room for improvement. This readme sample is based on said main code (titled tempCodeRunnerFile.cpp). After completing this document sample, Shahmeer will push the file on GitHub to allow a cross-check with Shubham so the latter could give his insight on the information conveyed. 
 
-<ins>**AI Tool Reflection (if any)**</any>
+<ins>**AI Tool Reflection (if any)**</ins>
 
 During the process of refining the code/adding extra features to the code, we did refer to GitHub Copilot for minor aid at times. To be more specific:
 
-*	We turned to AI to help us make a small string of code that allows the user to simulate the start of the day by pushing the “Enter” button on his keyboard.
+*	We turned to AI to help us make a small string of code that allows the user to simulate the start of the day by pushing the Enter button on his keyboard.
 *	Additionally, we referred to AI while trying to come up with a definitive equation for the performance score. It must be noted that we didn’t use the AI tool to come up with the code for said equation, we just required a mathematical representation of what the equation was supposed to look like.
 *	Moreover, we were slightly confused about how we were supposed to go about the 10% system malfunction event, which is why we turned to AI to help clear our concerns/confusion. We got to know that we supposed to merely put in a rand function to execute the random system error.
 * 	Along with this, to understand how to encounter the possibility of negative battery percentage, we referred to AI. It must be noted once again that we didn’t copy the code.
