@@ -107,12 +107,12 @@ int main(){
         continue;
       }
   // Calling delivery info
-       cout<<delivaryStatus()<<endl; 
+       string result=delivaryStatus(); 
   // Checking Delivary status
-    if((rand()%10==0)||((whether==2)&&(battery<40))){
+    if(result=="Failed due to low battery and rough weather\n"||result=="Failed due to systematic fault\n"){
        failed++;
       }
-    else if(whether==3){
+    else if(result=="Delayed\n"){
        delayed++;
       }
     else{ 
@@ -242,17 +242,17 @@ void startDay(){
        if(whether==3) {cout<<"Flight impacted by local weather – rescheduling in progress ";
        glitterDot(4,500);
        cout<<"\r"<<string(70,' ')<<"\r"; // Overwrites the statement in the same line with 70 spaces
-       cout<<"Delayed !"<<endl;
+       cout<<"Raining !"<<endl;
 
-       return "It may take some time\n";}
+       return "Delayed\n";}
 
        else if((whether==2)&&(battery<40)) {
-       cout<<"Drone may under these condition"<<endl;
+       cout<<"Drone may crash these condition"<<endl;
        cout<<"Returning to the base";
        glitterDot(3,500 );
        cout<<"\r"; // Overwrites the statement in the same line
        cout<<"Returned Successfully"<<endl;
-       return "Failed \n";}
+       return "Failed due to low battery and rough weather\n";}
 
        else  if(obstacle==1) {
        cout<<"Obstacle found!"<<endl;
@@ -266,10 +266,11 @@ void startDay(){
       glitterDot(4,200);
       cout << "\r" << string(70, ' ') << "\r"; // Overwrites the statement in the same line with 40 spaces
       cout<<"Sudden System Malfunction!"<<endl<<"Warning!"<<endl;
-      return "Failed! \n";}
+      return "Failed due to systematic fault\n";
+    }
 
-      else cout<<"Delivery Successful"<<endl;
-      return "\n";
+      else cout<<"Paracel Delivered";
+      return "Successfully\n";
   }
 
  // Mission Summary
