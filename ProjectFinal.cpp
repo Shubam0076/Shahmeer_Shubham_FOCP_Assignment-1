@@ -1,4 +1,3 @@
-
 //A drone simulation project that manages autonomous flight dynamics and control systems in virtual environments.
 # include <iostream>
 #include <windows.h> // For Sleep on Window
@@ -297,4 +296,3 @@ void startDay(){
      }
 
   }  
-
